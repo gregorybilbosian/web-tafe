@@ -1,3 +1,3 @@
-#krekor bilbosian project
+#krekor
 # web-tafe
 project apartments
