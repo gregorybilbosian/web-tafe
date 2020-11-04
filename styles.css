@@ -46,6 +46,15 @@ min-height: 100vh;
     flex-direction: row;
     flex-wrap: wrap;
 }
+#navbutton{
+    width: 52px;
+    height: 52px;
+    font-size: 28px;
+    color: var(--nav-link);
+    background-color: transparent;
+    border: 1px; solid var(--nav-link);
+    display: none;
+}
 .navigation a{
     text-decoration: none;
     color: var(--nav-link);
