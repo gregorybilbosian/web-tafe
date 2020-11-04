@@ -1,7 +1,7 @@
 function onload() {
     // create reference to html
-    const btn=document.queryselector('#navbutton')
-    const nav=document.queryselector('.navigation')
+    const btn=document.querySelector('#navbutton')
+    const nav=document.querySelector('.navigation')
     //make button clickable
     btn.addEventListener('click',function(){
         //if navigation opne 

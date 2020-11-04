@@ -1,49 +1,82 @@
 <!doctype html>
 <html lang="eng">
-    <head>
-<Title>contact sorento by the sea</Title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta charset="utf-8">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet"  href="responsive.css">
-<script src="script.js"></script>
+
+<head>
+    <Title>contact sorento by the sea</Title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
 </head>
- <body>
-     <header class="header">
-         <a href="index.html" class="home-link">
-             <img class="logo" src="assets/sorrento_by_the_sea_logo.jpg">
-         </a>
-         <button id="navbutton">
+
+<body>
+    <header class="header">
+        <a href="index.html" class="home-link">
+            <img class="logo" src="assets/sorrento_by_the_sea_logo.jpg">
+        </a>
+        <button id="navbutton">
             <i class="fas fa-bars"></i>
-           </button>
-         <nav class="navigation">
-             <a href="index.html">home</a>
-             <a href="about.html">about</a>
-             <a href="booking.html">booking</a>
-             <a href="gallery.html">gallery</a>
-             <a href="contact.html"class= "active" >contact</a>
-         </nav>
-     </header>
-     <main class="content"></main>
-     <footer class="footer">
-         <p class="privecy">
-         <a href="privecy.html">privecy policy</a>
+        </button>
+        <nav class="navigation">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="booking.html">booking</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html" class="active">contact</a>
+        </nav>
+    </header>
+    <main class="content contact">
+        <section class="contact-text">
+            <h2>contact details</h2>
+            <p>information booking</p>
+            <a href="tel:+61435123456">+61435123456</a>
+            <address>
+                42 holyrood ave
+                sorrento vic 3943
+            </address>
+        </section>
+        <form id="contact-form">
+            <label>name</label>
+            <input type="text" id="user-name" name="name" placeholder="jane smith">
+            <label for="user-email">email</label>
+            <input type="email" id="user-id" placeholder="jane@example.com">
+            <label for="user-message">message</label>
+            <textarea id="5" rows="5" cols="15" placeholder="hi there..."></textarea>
+           
+                <button type="reset" class="button">cancel</button>
+                <button type="submit" class="button">send</button>
+           
+        </form>
+        <section class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25033.806706117557!2d144.72555105456343!3d-38.34375464821312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad434fd0d956f7b%3A0x5045675218ce590!2sSorrento%20VIC%203943!5e0!3m2!1sen!2sau!4v1604465495717!5m2!1sen!2sau"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="privecy">
+            <a href="privecy.html">privecy policy</a>
         </p>
-         <nav class="social">
-             <a href="https://facebook.com/sorrentobythesea">
+        <nav class="social">
+            <a href="https://facebook.com/sorrentobythesea">
                 <i class="fab fa-facebook-square"></i>
             </a>
-             <a href="https://instagram.com/sorrentobythesea">
+            <a href="https://instagram.com/sorrentobythesea">
                 <i class="fab fa-instagram"></i>
             </a>
-             <a href="https://twitter.com/sorrentobythesea">
+            <a href="https://twitter.com/sorrentobythesea">
                 <i class="fab fa-twitter-square"></i>
             </a>
 
-         </nav>
-         <p class="copyright">&copy;sorrentobythesea 2020</p>
-     </footer>
- </body>
+        </nav>
+        <p class="copyright">&copy;sorrentobythesea 2020</p>
+    </footer>
+</body>
 
 </html>
