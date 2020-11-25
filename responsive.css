@@ -19,4 +19,17 @@ overflow: hidden;
         max-height: 50vh;
         
     }
+    .content {
+        padding:  0 10px ;
+    }
+    #video {
+        height: 300px;
+
+    }
+    .colums {
+        grid-column: span 3 ;
+    }
+    .item {
+        grid-column: span 3;
+    }
 }
